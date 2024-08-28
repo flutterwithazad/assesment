@@ -143,16 +143,6 @@ class _HomePageState extends State<HomePage> {
                             style: TextStyle(color: Colors.grey[600]),
                           ),
                           const SizedBox(height: 8),
-                          internship.workFromHome
-                              ? const RowOnCard(
-                                  icon: Icons.home_outlined,
-                                  text: "Work from home",
-                                )
-                              : RowOnCard(
-                                  icon: Icons.location_on_outlined,
-                                  text: internship.locationNames[0].toString(),
-                                ),
-                          const SizedBox(height: 5),
                           Row(
                             children: [
                               RowOnCard(
