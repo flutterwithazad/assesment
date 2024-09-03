@@ -42,8 +42,7 @@ class _HomePageState extends State<HomePage> {
           .toList();
 
       internships = fetchedInternships;
-      filteredInternships =
-          List.from(internships); // Initially, no filters applied
+      filteredInternships = List.from(internships);
 
       return fetchedInternships;
     } else {
